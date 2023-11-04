@@ -1,0 +1,69 @@
+
+# Demo resume adapted from https://github.com/jsonresume/resume-schema/blob/master/sample.resume.json
+
+basics:
+  name: Sergio Castillo Lara
+  label: Software Engineer
+  email: s.cast.lara@gmail.com
+  summary: 
+   Back end developer with proven experience in both academia and industry, 
+   proficient in  several technologies such as Python, Django, Perl, R, and others.
+  location:
+    city: Barcelona
+    countryCode: Spain
+  profiles:
+    - network: github
+      url: github.com/scastlara
+    - network: linkedin
+      url: linkedin.com/sergiocastillolara
+work:
+  - name: Elements
+    position: Software Engineer
+    location: Barcelona, Spain
+    url: http://elements.nl
+    startDate: 2020-04
+    endDate: Present
+    highlights: 
+      - Developed a highly available application to automatically accept/reject prospective customers, manage and configure customer acceptance policies, detect fraudulent markers, and assess credit risk.
+      - Implemented microservices for exposing several telecommunication systems through RESTful APIs.
+      - Defined quality guidelines for the Backend team, and led a project for creating standardized templates for our applications.
+
+  - name: Computational Genomics Lab, UB
+    position: Bioinformatician
+    location: Barcelona, Spain
+    url: http://compgen.bio.ub.edu
+    startDate: 2014-07
+    endDate: 2020-04
+    highlights: 
+      - Developed Django and Flask web applications to integrate and visualize predictions and other heterogeneous biological data from multiple data sources.
+      - Set up and managed multiple databases using Neo4j and MySQL.
+      - Used tools such as pandas, R programming language, ggplot2, R caret, etc. to analyze biological data.
+      - Trained and applied machine-learning models to predict gene regulatory networks and protein-protein interactions.
+      - Assistant teacher of Algorithms and Computational Genomics.
+
+education:
+  - institution: Universitat Pompeu Fabra
+    url: https://www.upf.edu/
+    area: MSc. Bioinformatics for Health Sciences
+    startDate: "2015"
+    endDate: "2017"
+  - institution: Universitat de Barcelona
+    url: https://web.ub.edu/es/
+    area: BSc. Biology
+    startDate: "2010"
+    endDate: "2015"
+
+publications:
+  - name: See Google Scholar Profile
+    url: https://scholar.google.com/citations?user=mdWnpmAAAAAJ&hl=en
+
+skills:
+  - name: Programming languages
+    keywords: ["Python", "Javascript", "R", "Perl"]
+    
+  - name: Frameworks
+    keywords: ["FastAPI", "Django", "Django Rest Framework"]
+
+  - name: Other
+    keywords: ["Kubernetes", "CI/CD", "PostgreSQL", "Redis", "AWS", "Test Driven Development"]
+
